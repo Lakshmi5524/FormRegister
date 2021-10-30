@@ -122,8 +122,9 @@ const Register = (props) => {
 					</div>
 					<div className="d-flex justify-content-between">
 						<button className=" btn btn-primary" type="submit">Submit</button>
+						{/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
 						<a
-							href="#"
+							href='#'
 							onClick={() => {
 								window.location.href = 'login';
 							}}

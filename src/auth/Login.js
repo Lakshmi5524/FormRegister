@@ -84,6 +84,7 @@ const Login = (props) => {
 
 					<div className="d-flex justify-content-between">
 						<button className=" btn btn-primary" type="submit">submit</button>
+						{/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
 						<a
 							href="#"
 							onClick={() => {
